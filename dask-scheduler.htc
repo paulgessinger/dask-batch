@@ -1,0 +1,5 @@
+executable = $ENV(HOME)/dask/dask-scheduler.sh
+output = $ENV(HOME)/dask/scheduler_out.log
+error = $ENV(HOME)/dask/scheduler_err.log
+batch_name = dask_scheduler
+queue 1
